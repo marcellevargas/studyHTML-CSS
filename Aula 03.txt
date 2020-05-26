@@ -1,0 +1,2 @@
+- A fonte padrão do navegador é medido em PX
+- O tamanho inicial do navegador é 16px
