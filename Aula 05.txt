@@ -1,0 +1,4 @@
+- Quando uma tag ocupa o tamanho inteiro da linha ele tem o comportamento de bloco (block), ele bloqueia o conteúdo daquela linha
+- Um elemento inline não permite alterar o espaçamento interno e externo
+- Elemento inline-block ele bloqueia uma largura e uma altura, mas me permite definir essa altura e essa largura
+- vertical-align: quando o alinhamento vertical é definido a partir do inicio
