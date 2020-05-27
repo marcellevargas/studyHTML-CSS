@@ -1,2 +1,3 @@
 - A fonte padrão do navegador é medido em PX
 - O tamanho inicial do navegador é 16px
+- No CSS é uma boa prática escrever a tag pai antes da tag filha
