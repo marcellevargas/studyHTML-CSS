@@ -1,0 +1,4 @@
+- Quando utilizamos um elemento com inline-block ele faz o alinhamento a partir da linha de baixo
+para alterar isso basta utilizar o propriedade vertical-align com valor top
+- box-sizing com border-box é a propriedade que define qual será o tamanho do box, respeitando as definições de largura e altura
+ 
