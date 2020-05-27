@@ -1,0 +1,3 @@
+- Arquivo reset.css é um arquivo criado pela comunidade CSS para limpar o CSS implementado por default pelo navegador
+- Position relative = significa depois de carregada o elemento terá uma posição relativa ao ponto inicial onde foi carregado
+- Position absolute = significa que o elemento é absoluto em relação a toda página
