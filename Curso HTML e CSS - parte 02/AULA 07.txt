@@ -1,0 +1,1 @@
+- Para colocar o caracter de unicode usar o site unicode-table.com/pt
