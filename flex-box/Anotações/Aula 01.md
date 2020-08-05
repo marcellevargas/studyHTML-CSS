@@ -1,21 +1,23 @@
-# Por padrão os items de um display flex assumem um flex-direction como row
+# Flex container
 
-# flex-direction => define a direção dos elementos (row//column//row-reverse //column-reverse)
+## Por padrão os items de um display flex assumem um flex-direction como row
 
-# flex-wrap => define se os elementos vão possuir quebra de linha ou não (nowrap // wrap // wrap-reverse)
+## flex-direction => define a direção dos elementos (row//column//row-reverse //column-reverse)
 
-# Os items também possuem a proprieade flex-wrap como nowrap para impedir a quebra de linha
+## flex-wrap => define se os elementos vão possuir quebra de linha ou não (nowrap // wrap // wrap-reverse)
 
-# flex-flow => modo resumido para escrever o flex-direction e o flex-wrap
+## Os items também possuem a proprieade flex-wrap como nowrap para impedir a quebra de linha
 
-# justify-content => para fazer alinhamento horizontal (flex-start // flex-end // center // space-between // space-around)
+## flex-flow => modo resumido para escrever o flex-direction e o flex-wrap
 
-# o justify-content tem por padrão o valor flex-start
+## justify-content => para fazer alinhamento horizontal (flex-start // flex-end // center // space-between // space-around)
 
-# align-items => é responsável por fazer o alinhamento vertical (flex-start // strech // flex-end // baseline)
+## o justify-content tem por padrão o valor flex-start
 
-# o valor padrão do align-items é strech que define que os items devem crescer igualmente
+## align-items => é responsável por fazer o alinhamento vertical (flex-start // strech // flex-end // baseline)
 
-# align-content => irá fazer o alinhamento vertical quando os items estiverem em multiline (tiver uma quebra) (flex-start // flex-end // center // space-between //space-around //strech)
+## o valor padrão do align-items é strech que define que os items devem crescer igualmente
 
-# o align-content tem strech como valor padrão
+## align-content => irá fazer o alinhamento vertical quando os items estiverem em multiline (tiver uma quebra) (flex-start // flex-end // center // space-between //space-around //strech)
+
+## o align-content tem strech como valor padrão
