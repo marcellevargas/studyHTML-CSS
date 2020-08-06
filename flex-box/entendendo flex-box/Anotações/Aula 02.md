@@ -1,19 +1,23 @@
-# Flex items
+# Flex container
 
-## order => recebe a posição em que o elemento deve ser inserido, começando do 1 (recebe valores numéricos)
+## Por padrão os items de um display flex assumem um flex-direction como row
 
-## align-self => faz o elemento vertical do item (center //flex-start //flex-end // baseline //strech)
+## flex-direction => define a direção dos elementos (row//column//row-reverse //column-reverse)
 
-## o align-self tem por padrão o valor auto, pois irá respeitar por padrão o que for definido pelo container
+## flex-wrap => define se os elementos vão possuir quebra de linha ou não (nowrap // wrap // wrap-reverse)
 
-## flex-grow => está relacionado a largura desses items (largura = largura \* flex-grow)
+## Os items também possuem a proprieade flex-wrap como nowrap para impedir a quebra de linha
 
-## se o elemento pai receber o flex-grow 1 todos os elementos filhos vão receber o mesmo tamanho
+## flex-flow => modo resumido para escrever o flex-direction e o flex-wrap
 
-## o flex-grow tem por padrão o valor 0
+## justify-content => para fazer alinhamento horizontal (flex-start // flex-end // center // space-between // space-around)
 
-## flex-basis => define a largura inicial dos items
+## o justify-content tem por padrão o valor flex-start
 
-## flex-shrink => define a capacidade de redução do item (largura = largura / flex-shrink)
+## align-items => é responsável por fazer o alinhamento vertical (flex-start // strech // flex-end // baseline)
 
-## flex => é a forma resumida de escrever flex-grow - flex-basis - flex-shrink
+## o valor padrão do align-items é strech que define que os items devem crescer igualmente
+
+## align-content => irá fazer o alinhamento vertical quando os items estiverem em multiline (tiver uma quebra) (flex-start // flex-end // center // space-between //space-around //strech)
+
+## o align-content tem strech como valor padrão
