@@ -4,7 +4,7 @@
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
-  font-family: "Opens Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav, ul {
@@ -113,6 +113,7 @@ header li:last-child {
   font-size: 2rem;
   margin-bottom: 35px;
   color: #191c03;
+  text-align: center;
 }
 .conheca-o-hotel p {
   max-width: 800px;
@@ -125,4 +126,33 @@ header li:last-child {
   height: 2px;
   background-color: #191c03;
   margin-bottom: 70px;
+}
+
+.conheca-o-hotel .grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conheca-o-hotel .grid li {
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.conheca-o-hotel .grid .small {
+  flex-basis: 40%;
+}
+
+.conheca-o-hotel .grid .large {
+  flex-basis: 60%;
+}
+
+@media (max-width: 700px) { 
+  .conheca-o-hotel .grid .small, .conheca-o-hotel .grid .large {
+    flex-basis: 100%;
+  } 
 }
