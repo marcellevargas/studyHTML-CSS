@@ -156,3 +156,63 @@ header li:last-child {
     flex-basis: 100%;
   } 
 }
+
+/*CARACTERISTICAS*/
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+  background-color: #191c03;
+}
+.caracteristicas h3 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
+}
+.caracteristicas p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  color: #fff;
+  text-align: center;
+}
+.caracteristicas hr {
+  width: 200px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 70px;
+}
+
+.caracteristicas .grid {
+  width: 100%;
+  display: flex;
+}
+
+.caracteristicas .grid li {
+  padding: 0 30px;
+  text-align: center;
+}
+
+.caracteristicas .grid li i {
+  color: #c3c63b;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.caracteristicas .grid li h4 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #c3c63b;
+}
+.caracteristicas .grid li p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+@media (max-width: 850px) { 
+  .caracteristicas .grid {
+    flex-direction: column;
+  } 
+}
